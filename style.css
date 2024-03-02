@@ -13,6 +13,7 @@ body {
 }
 
 #title {
+  position: relative;
   text-align: center;
   font-family: "Arial", sans-serif;
   font-size: 3rem;
@@ -31,7 +32,7 @@ body {
   background: white;
   opacity: 0.5;
   z-index: -1;
-  mix-blend-mode: exclusion;
+  /* mix-blend-mode: exclusion; */
 
   // mimicing Gaussian blur
   filter: blur(50px);
