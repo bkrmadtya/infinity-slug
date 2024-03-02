@@ -32,10 +32,6 @@ body {
   background: white;
   opacity: 0.5;
   z-index: -1;
-  /* mix-blend-mode: exclusion; */
-
-  // mimicing Gaussian blur
-  filter: blur(50px);
   filter: blur(50px);
 }
 
